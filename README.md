@@ -45,16 +45,14 @@ Exploration of generating deep feature-controlled images using Matlab
         │  pooling operation │
         └─────────┬──────────┘
                   .
-                  .
                   ▼
 ┌─────────────────────────────────────┐
 │   Rescaling, combining, projecting  │
 └─────────────────┬───────────────────┘
                   .
-                  .
                   ▼
         ┌────────────────────┐
-        │  unpooling operation │
+        │ unpooling operation│
         └─────────┬──────────┘
                   ▼
 ┌─────────────────────────────────────┐
@@ -62,7 +60,7 @@ Exploration of generating deep feature-controlled images using Matlab
 └─────────────────┬───────────────────┘
                   ▼
           ┌───────────────┐
-          │  output images │
+          │ output images │
           └───────────────┘
 ```
 

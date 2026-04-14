@@ -64,7 +64,7 @@ Exploration of generating deep feature-controlled images using Matlab
           ┌───────────────┐
           │  output images │
           └───────────────┘
-
+```
 
 ## Why This Matters (CV Engineering Perspective)
 

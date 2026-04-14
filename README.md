@@ -21,35 +21,36 @@ Exploration of generating deep feature-controlled images using MATLAB
 
 ## Pipeline
 
-         ┌─────────────────┐
-         │  Colored Images │ 
-         └────────┬────────┘
-                  ▼
-┌─────────────────────────────────────┐      
-│  filter-only convolution operation  │ 
+┌─────────────────┐
+│  Colored Images │
+└────────┬────────┘
+         ▼
+┌─────────────────────────────────────┐
+│  filter-only convolution operation  │
 └─────────────────┬───────────────────┘
                   ▼
-        ┌────────────────────┐      
-        │  pooling operation │ 
+        ┌────────────────────┐
+        │  pooling operation │
         └─────────┬──────────┘
                   .
                   .
                   ▼
-┌─────────────────────────────────────┐      
-│   Rescaling, combining, projecting  │ 
+┌─────────────────────────────────────┐
+│   Rescaling, combining, projecting  │
 └─────────────────┬───────────────────┘
                   .
                   .
                   ▼
-        ┌────────────────────┐      
-        │ unpooling operation│ 
+        ┌────────────────────┐
+        │ unpooling operation │
         └─────────┬──────────┘
                   ▼
-┌─────────────────────────────────────┐      
-│ filter-only deconvolution operation │ 
+┌─────────────────────────────────────┐
+│ filter-only deconvolution operation │
 └─────────────────┬───────────────────┘
+                  ▼
           ┌───────────────┐
-          │ output images │
+          │  output images │
           └───────────────┘
 
 ```

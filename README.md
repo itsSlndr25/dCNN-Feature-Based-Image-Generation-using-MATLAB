@@ -32,7 +32,7 @@ This project emphasizes understanding of:
 Exploration of generating deep feature-controlled images using Matlab 
 
 ## Pipeline
-
+```
 ┌─────────────────┐
 │  Colored Images │
 └────────┬────────┘

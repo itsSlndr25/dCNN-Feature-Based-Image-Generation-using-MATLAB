@@ -26,7 +26,9 @@ This project emphasizes understanding of:
 *** The key point of these operations are basically hand crafted using "MatConvNet" rather than referencing the preexisting vgg model in the deep-learning toolbox ***
 
 ## Files
-- from_NSD_creatANDgen_deconv.m – main script
+- from_NSD_creatANDgen_deconv.m ← main script
+- dCNN Feature-Based Image Generation - summary.pdf ← summary of the project
+- MatConvNet影像生成.pdf ← summary of the project *chinese version
 
 ## Purpose
 Exploration of generating deep feature-controlled images using Matlab 
